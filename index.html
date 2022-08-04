@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="valuebox" id="vb0"><h1 align="middle">$ 0</h1></div>
+        <div class="valuebox" id="vb1"><h1 align="middle">$ 1</h1></div>
+        <div class="valuebox" id="vb5"><h1 align="middle">$ 5</h1></div>
+        <div class="valuebox" id="vb10"><h1 align="middle">$ 10</h1></div>
+        <div class="valuebox" id="vb25"><h1 align="middle">$ 25</h1></div>
+        <div class="valuebox" id="vb50"><h1 align="middle">$ 50</h1></div>
+        <div class="valuebox" id="vb75"><h1 align="middle">$ 75</h1></div>
+        <div class="valuebox" id="vb100"><h1 align="middle">$ 100</h1></div>
+        <div class="valuebox" id="vb200"><h1 align="middle">$ 200</h1></div>
+        <div class="valuebox" id="vb300"><h1 align="middle">$ 300</h1></div>
+        <div class="valuebox" id="vb400"><h1 align="middle">$ 400</h1></div>
+        <div class="valuebox" id="vb500"><h1 align="middle">$ 500</h1></div>
+        <div class="valuebox" id="vb750"><h1 align="middle">$ 750</h1></div>
+    </div>
+    <div class="content">
+        <div class="content-container">
+            <div class="title"><h1 align="center">DEAL OR NO DEAL</h1></div>
+            <div class="grid-container">
+                <div class="grid-item" id="grid-item1" onclick="change(1,dataArr)">1</div>
+                <div class="grid-item" id="grid-item2" onclick="change(2,dataArr)">2</div>
+                <div class="grid-item" id="grid-item3" onclick="change(3,dataArr)">3</div>
+                <div class="grid-item" id="grid-item4" onclick="change(4,dataArr)">4</div>
+                <div class="grid-item" id="grid-item5" onclick="change(5,dataArr)">5</div>
+                <div class="grid-item" id="grid-item6" onclick="change(6,dataArr)">6</div>
+                <div class="grid-item" id="grid-item7" onclick="change(7,dataArr)">7</div>
+                <div class="grid-item" id="grid-item8" onclick="change(8,dataArr)">8</div>
+                <div class="grid-item" id="grid-item9" onclick="change(9,dataArr)">9</div>
+                <div class="grid-item" id="grid-item10" onclick="change(10,dataArr)">10</div>
+                <div class="grid-item" id="grid-item11" onclick="change(11,dataArr)">11</div>
+                <div class="grid-item" id="grid-item12" onclick="change(12,dataArr)">12</div>
+                <div class="grid-item" id="grid-item13" onclick="change(13,dataArr)">13</div>
+                <div class="grid-item" id="grid-item14" onclick="change(14,dataArr)">14</div>
+                <div class="grid-item" id="grid-item15" onclick="change(15,dataArr)">15</div>
+                <div class="grid-item" id="grid-item16" onclick="change(16,dataArr)">16</div>
+                <div class="grid-item" id="grid-item17" onclick="change(17,dataArr)">17</div>
+                <div class="grid-item" id="grid-item18" onclick="change(18,dataArr)">18</div>
+                <div class="grid-item" id="grid-item19" onclick="change(19,dataArr)">19</div>
+                <div class="grid-item" id="grid-item20" onclick="change(20,dataArr)">20</div>
+                <div class="grid-item" id="grid-item21" onclick="change(21,dataArr)">21</div>
+                <div class="grid-item" id="grid-item22" onclick="change(22,dataArr)">22</div>
+                <div class="grid-item" id="grid-item23" onclick="change(23,dataArr)">23</div>
+                <div class="grid-item" id="grid-item24" onclick="change(24,dataArr)">24</div>
+                <div class="grid-item" id="grid-item25" onclick="change(25,dataArr)">25</div>
+                <div class="grid-item" id="grid-item26" onclick="change(26,dataArr)">26</div> 
+            </div> 
+            <div class="counter">
+                
+                <h1 id="count2" align="center">Pick 6 Cards</h1>
+                <div class="btn-container" id="btn1">
+                    <div class="btn" id="deal" onclick="deal()">DEAL</div>
+                    <h1>OR</h1>
+                    <div class="btn" id="nodeal" onclick="nodeal()">NO DEAL</div>
+                </div>
+                <div class="exit" id="exit" onclick="refpage()"><h1>EXIT</h1></div>
+                <!-- <h1 id="count2"></h1>
+                <h3 id="count1"></h3> -->
+            </div>
+
+            .
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="valuebox" id="vb1000"><h1 align="middle">$ 1,000</h1></div>
+        <div class="valuebox" id="vb5000"><h1 align="middle">$ 5,000</h1></div>
+        <div class="valuebox" id="vb10000"><h1 align="middle">$ 10,000</h1></div>
+        <div class="valuebox" id="vb25000"><h1 align="middle">$ 25,000</h1></div>
+        <div class="valuebox" id="vb50000"><h1 align="middle">$ 50,000</h1></div>
+        <div class="valuebox" id="vb75000"><h1 align="middle">$ 75,000</h1></div>
+        <div class="valuebox" id="vb100000"><h1 align="middle">$ 100,000</h1></div>
+        <div class="valuebox" id="vb200000"><h1 align="middle">$ 200,000</h1></div>
+        <div class="valuebox" id="vb300000"><h1 align="middle">$ 300,000</h1></div>
+        <div class="valuebox" id="vb400000"><h1 align="middle">$ 400,000</h1></div>
+        <div class="valuebox" id="vb500000"><h1 align="middle">$ 500,000</h1></div>
+        <div class="valuebox" id="vb750000"><h1 align="middle">$ 750,000</h1></div>
+        <div class="valuebox" id="vb1000000"><h1 align="middle">$ 1,000,000</h1></div>
+    </div>   
+</body>
+</html>

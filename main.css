@@ -1,0 +1,150 @@
+/*Dark Mode*/
+ :root{
+    filter: invert(100%);
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 0.5vw;
+}
+.start{
+    width: 600px;
+    height: 100%;
+    font-size: 4vw;
+    background-color: blue;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px white solid;
+    margin: 0 auto;
+    color: white;
+    box-shadow: 5px 10px 8px #888888;
+}
+a{
+    text-decoration: none;
+    margin: 10vw auto;
+}
+.sidebar{
+    height: 98vh;
+    width: 15vw;
+    border: 1px black solid;
+    margin: 0 0.5vw;  
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+}
+.content{
+    height: 98vh;
+    width: 70vw;
+    border: 1px black solid;
+    margin: 0 0.5vw;
+    border-radius: 10px; 
+    background-color: black;
+}
+.valuebox{
+    width: 13.5vw;
+    height: 7vh;
+    margin: 0.22vw auto;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 10px 8px #888888;
+}
+.valuebox h1{
+    margin: 0.5vh;
+}
+.content-container{
+    height: 95vh;
+    width: 60vw;
+    /* border: 1px black solid; */
+    margin: 1vh auto;    
+}
+.title{
+    background-color: blanchedalmond;
+    border: 3px black solid;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 1vw;   
+}
+.title h1{
+    font-size: 5rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px;
+    grid-column-gap: 3px;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+.grid-item{
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 125px;
+    height: 75px;
+    font-weight: 700;
+    background-color: blanchedalmond;
+    box-shadow: 5px 10px 8px #888888;
+    text-align: center;
+    cursor: pointer;
+}
+.counter h1{
+    color: black;
+    background-color: blanchedalmond;
+    padding: 0.3vw 0.8vw;
+    border-radius: 10px;
+    font-size: 3vw;
+    margin: 1vw 0;
+    border: 1px black solid;
+    box-shadow: 5px 10px 8px #888888;
+}
+.btn{
+    width: 300px;
+    height: 75px;
+    background-color: blanchedalmond;
+    color: black;
+    margin: 0.5vw;
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px black solid;
+    box-shadow: 5px 10px 8px #888888;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+.btn-container h1{
+    font-size: 3vw;
+}
+.exit{
+    background-color: greenyellow;
+    color: black;
+    width: 200px;
+    height: 85px;
+    display: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px black solid;
+    box-shadow: 5px 10px 8px #888888;
+    cursor: pointer;
+}
+.exit h1
+{
+    border: none;
+    box-shadow: none;
+    background-color: greenyellow;
+    color: black;
+}
